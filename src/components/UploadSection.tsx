@@ -43,7 +43,7 @@ const UploadSection = () => {
             <div className="flex flex-col items-center space-y-4">
               {isUploaded ? (
                 <>
-                  <CheckCircle className="h-12 w-12 text-green-500" />
+                  <CheckCircle className="h-12 w-12 text-primary" />
                   <h3 className="text-lg font-semibold text-foreground">UFDR File Ready</h3>
                   <p className="text-muted-foreground">File successfully processed and indexed</p>
                 </>
