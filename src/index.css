@@ -6,7 +6,7 @@
 
 @layer base {
   :root {
-    /* ForenSight Color Palette - Based on uploaded palette */
+    /* ForenSight Color Palette - Updated */
     --background: 0 0% 98%;
     --foreground: 285 22% 18%;
 
@@ -21,7 +21,7 @@
     --primary-glow: 180 15% 65%;
 
     --secondary: 25 73% 65%;
-    --secondary-foreground: 0 0% 98%;
+    --secondary-foreground: 285 22% 18%;
 
     --muted: 0 0% 96%;
     --muted-foreground: 180 4% 35%;
@@ -32,7 +32,7 @@
     --destructive: 350 100% 68%;
     --destructive-foreground: 0 0% 98%;
 
-    --border: 0 0% 90%;
+    --border: 0 0% 90%;  
     --input: 0 0% 95%;
     --ring: 180 8% 46%;
 
@@ -62,7 +62,7 @@
   }
 
   .dark {
-    /* ForenSight Dark Mode - Based on uploaded palette */
+    /* ForenSight Dark Mode - Updated */
     --background: 285 22% 18%;
     --foreground: 0 0% 98%;
 
@@ -75,7 +75,7 @@
     --primary: 180 8% 46%;
     --primary-foreground: 0 0% 98%;
 
-    --secondary: 25 73% 65%;
+    --secondary: 350 100% 68%;
     --secondary-foreground: 285 22% 18%;
 
     --muted: 285 22% 25%;
