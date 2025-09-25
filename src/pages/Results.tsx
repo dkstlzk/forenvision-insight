@@ -54,9 +54,9 @@ const communicationFrequency = [
 ];
 
 const contactDistribution = [
-  { country: "UK", count: 3, color: "hsl(var(--primary))" },
-  { country: "US", count: 2, color: "hsl(var(--primary-light))" },
-  { country: "DE", count: 2, color: "hsl(var(--primary-lighter))" }
+  { country: "UK", count: 3, color: "hsl(var(--forensic-teal))" },
+  { country: "US", count: 2, color: "hsl(var(--forensic-orange))" },
+  { country: "DE", count: 2, color: "hsl(var(--forensic-coral))" }
 ];
 
 const messageTypes = [
@@ -66,8 +66,8 @@ const messageTypes = [
 ];
 
 const chartConfig = {
-  messages: { label: "Messages", color: "hsl(var(--primary))" },
-  count: { label: "Count", color: "hsl(var(--primary))" }
+  messages: { label: "Messages", color: "hsl(var(--forensic-teal))" },
+  count: { label: "Count", color: "hsl(var(--forensic-teal))" }
 };
 
 const Results = () => {
@@ -165,9 +165,9 @@ const Results = () => {
                   <Line 
                     type="monotone" 
                     dataKey="messages" 
-                    stroke="hsl(var(--primary))" 
+                    stroke="hsl(var(--forensic-teal))" 
                     strokeWidth={2}
-                    dot={{ fill: "hsl(var(--primary))", strokeWidth: 2 }}
+                    dot={{ fill: "hsl(var(--forensic-teal))", strokeWidth: 2 }}
                   />
                 </LineChart>
               </ChartContainer>
@@ -224,7 +224,7 @@ const Results = () => {
                   <XAxis type="number" />
                   <YAxis dataKey="type" type="category" />
                   <ChartTooltip content={<ChartTooltipContent />} />
-                  <Bar dataKey="count" fill="hsl(var(--primary))" radius={[0, 4, 4, 0]} />
+                  <Bar dataKey="count" fill="hsl(var(--forensic-teal))" radius={[0, 4, 4, 0]} />
                 </BarChart>
               </ChartContainer>
             </CardContent>

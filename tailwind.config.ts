@@ -49,10 +49,11 @@ export default {
           foreground: "hsl(var(--card-foreground))",
         },
         forensic: {
-          blue: "hsl(var(--forensic-blue))",
-          light: "hsl(var(--forensic-blue-light))",
+          teal: "hsl(var(--forensic-teal))",
+          orange: "hsl(var(--forensic-orange))",
+          coral: "hsl(var(--forensic-coral))",
           dark: "hsl(var(--forensic-dark))",
-          gray: "hsl(var(--forensic-gray))",
+          light: "hsl(var(--forensic-light))",
         },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
